@@ -55,4 +55,5 @@ export default defineConfig({
   optimizeDeps: {
     include: ["@shopify/app-bridge-react"],
   },
+  base: process.env.VITE_BASE_PATH || "/qrcode",
 });
